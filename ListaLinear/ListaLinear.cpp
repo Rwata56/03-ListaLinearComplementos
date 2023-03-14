@@ -122,8 +122,27 @@ void inserirElemento()
 
 void excluirElemento()
 {
-
-
+	int valor, pos;
+	if (nElementos == 0) {
+		cout << "lista vazia" << endl;
+	}
+	else {
+		cout << "valor a deletar: ";
+		cin >> valor;
+		pos = posicaoElemento(valor);
+		if (nElementos == 1 && valor == lista[pos]) {
+			nElementos--;
+			cout << "deletado";
+		}
+		else if (valor == lista[pos]) {
+			lista[pos] == lista[nElementos];
+			nElementos--;
+			cout << "deletado";
+		}
+		else {
+			cout << "O numero não tem na lista.";
+		}
+	}
 }
 
 void buscarElemento()
