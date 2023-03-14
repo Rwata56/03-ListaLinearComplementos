@@ -77,7 +77,6 @@ void inicializar()
 void exibirQuantidadeElementos() {
 
 	cout << "Quantidade de elementos: " << nElementos << endl;
-
 }
 
 void exibirElementos()
