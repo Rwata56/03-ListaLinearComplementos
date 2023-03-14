@@ -27,6 +27,7 @@ int main()
 void menu()
 {
 	int op = 0;
+
 	while (op != 7) {
 		system("cls"); // somente no windows
 		cout << "Menu Lista Linear";
