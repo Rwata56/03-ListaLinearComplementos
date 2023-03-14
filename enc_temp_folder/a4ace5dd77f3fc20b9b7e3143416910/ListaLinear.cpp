@@ -141,6 +141,18 @@ void excluirElemento()
 			cout << "O elemento digitado nao foi encontrado" << endl;
 		}
 
+		/*if (nElementos == 1 && valor == lista[pos]) {
+			nElementos--;
+			cout << "deletado";
+		}
+		else if (valor == lista[pos]) {
+			lista[pos] == lista[nElementos];
+			nElementos--;
+			cout << "deletado";
+		}
+		else {
+			cout << "O numero não tem na lista.";
+		}*/
 	}
 }
 
